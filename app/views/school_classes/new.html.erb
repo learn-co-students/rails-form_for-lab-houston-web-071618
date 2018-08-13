@@ -1,0 +1,6 @@
+<h1>"School Class Form"</h1>
+<%= form_for @school_class do |f| %>
+  <%= f.text_field :title, placeholder: 'title' %>
+  <%= f.text_field :room_number, placeholder: 'room number' %>
+  <%= f.submit %>
+<% end %>
