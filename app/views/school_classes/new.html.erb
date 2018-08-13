@@ -1,0 +1,6 @@
+<h1>School Class Form</h1>
+<%= form_tag school_classes_path do %>
+  <p>School Class Title: <%= text_field_tag :'school_class[title]', nil, placeholder: "school class title", id: "school_class_title"%></p>
+  <p>School Class Room Number: <%= number_field_tag :'school_class[room_number]', nil, placeholder: "room number", id: "school_class_room_number" %></p>
+  <p><%= submit_tag "Create School class" %></p>
+<% end %>
