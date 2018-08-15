@@ -1,0 +1,6 @@
+<h3>Edit a Student</h3>
+<%= form_for @student do |f| %>
+  <%= f.text_field :first_name, placeholder: 'first name' %><br />
+  <%= f.text_field :last_name, placeholder: 'last name' %><br />
+  <%= f.submit %>
+<% end %>
