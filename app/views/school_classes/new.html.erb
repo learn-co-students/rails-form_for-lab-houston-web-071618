@@ -1,4 +1,4 @@
-<h1>SchoolClasses#new</h1>
+<h1>School Class Form</h1>
 <p>Find me in app/views/school_classes/new.html.erb</p>
 
 <%= form_for @new do |f| %>
@@ -8,5 +8,5 @@
   <%= f.label :room_number %>:
   <%= f.number_field :room_number %><br />
 
-  <%= f.submit "Create School Class" %>
+  <%= f.submit "Create School Class", {:id => "Create School class"} %>
 <% end %>
